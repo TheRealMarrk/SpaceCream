@@ -1,0 +1,29 @@
+.page {
+  grid-template-areas: "A D E"
+  "B D F"
+  "B C F"; 
+
+}
+
+main div:nth-child(1) {
+  grid-area: A;
+}
+main div:nth-child(2) {
+  grid-area: B;
+}
+main div:nth-child(3) {
+  grid-area: C;
+}
+main div:nth-child(4) {
+  grid-area: D;
+}
+
+main div:nth-child(5) {
+  grid-area: E;
+  opacity: 1;
+}
+
+main div:nth-child(6) {
+  grid-area: F;
+  opacity: 1;
+}
